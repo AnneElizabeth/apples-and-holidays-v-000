@@ -50,10 +50,6 @@ def all_supplies_in_holidays(holiday_hash)
       puts "  " + cap_holiday_names.join(" ") + ": " + supplies.join(", ")
     end
  end 
-  
-  
-  
-
 end
 
 def all_holidays_with_bbq(holiday_hash)
