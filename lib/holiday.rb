@@ -58,7 +58,7 @@ def all_supplies_in_holidays(holiday_hash)
   #print
   
   holiday_hash.keys.sort.map do |key, value|
-    key.to_s.split.capitalize!.join }
+    key.to_s.split.capitalize!.join
     
    end 
   
