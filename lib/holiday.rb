@@ -76,7 +76,7 @@ def all_holidays_with_bbq(holiday_hash)
   # include the string "BBQ"
 
 #select finds all elements
-  holiday_hash.values.select do | holiday_name, supply|
+  holiday_hash.values.select do | hash, supply|
     binding.pry
   end
 end
