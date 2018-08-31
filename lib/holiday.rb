@@ -58,8 +58,9 @@ def all_supplies_in_holidays(holiday_hash)
   #print
   
   holiday_hash.each do |key, hash|
+    binding.pry
     key.to_s.split.capitalize!.join
-       binding.pry
+       
    end 
   
   
