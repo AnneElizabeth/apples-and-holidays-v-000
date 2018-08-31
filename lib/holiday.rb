@@ -42,7 +42,7 @@ def all_winter_holiday_supplies(holiday_hash)
 end
 
 
-#def all_supplies_in_holidays(holiday_hash)
+def all_supplies_in_holidays(holiday_hash)
   # iterate through holiday_hash and print items such that your readout resembles:
   # Winter:
   #   Christmas: Lights, Wreath
@@ -50,8 +50,13 @@ end
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
-
-#end
+  
+  #iterate through hash, convert keys to strings, split key names, join names, capitalize! names => seasons, holidays
+  #iterate through hash, find values and flatten them => supplies
+  
+  #format
+  #print
+end
 
 #def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
