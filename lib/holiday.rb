@@ -76,9 +76,8 @@ def all_holidays_with_bbq(holiday_hash)
   # include the string "BBQ"
 
 #select finds all elements
-  holiday_hash.select do | key, hash |
-    
-    collected_holidays = hash.select do |holiday_name, supply_array|
+  collected_holidays = holiday_hash.select do | key, hash |
+    hash.select do |holiday_name, supply_array|
       if supply_array.include?("BBQ")
         holiday_name
       end
