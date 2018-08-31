@@ -61,7 +61,7 @@ def all_supplies_in_holidays(holiday_hash)
     binding.pry
      puts key.to_s.capitalize! + ":"
       hash.each do | holiday_name, supplies |
-        holiday_name.
+        holiday_name.to_s.split("_")
       
       end
    end 
