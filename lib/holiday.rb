@@ -62,14 +62,12 @@ def all_supplies_in_holidays(holiday_hash)
      puts key.to_s.capitalize! + ":"
       hash.each do | holiday_name, supplies |
         cap_holiday_names = holiday_name.to_s.split("_").collect {|hol_name| hol_name.capitalize }
-        binding.pry
-        puts cap_holiday_names
+        puts "  " + cap_holiday_names.join(" ") + ": " + supplies.join(", ")
       end
    end 
   
   
   
-  #hash[key].each { |val| puts val }
 
 end
 
