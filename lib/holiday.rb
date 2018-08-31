@@ -79,7 +79,7 @@ def all_holidays_with_bbq(holiday_hash)
   collected_holidays = holiday_hash.select do | key, hash |
     hash.select do |holiday_name, supply_array|
       if supply_array.include?("BBQ")
-        holiday_name
+        return holiday_name
       end
     end
   end
