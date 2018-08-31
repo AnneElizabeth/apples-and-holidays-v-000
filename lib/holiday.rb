@@ -71,11 +71,15 @@ def all_supplies_in_holidays(holiday_hash)
 
 end
 
-#def all_holidays_with_bbq(holiday_hash)
+def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
   # include the string "BBQ"
 
-#end
+#select finds all elements
+  holiday_hash.value.select do | holiday_name, supply|
+    binding.pry
+  end
+end
 
 
 
