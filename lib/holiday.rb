@@ -57,14 +57,14 @@ def all_supplies_in_holidays(holiday_hash)
   #format
   #print
   
-  holiday_hash.keys.map do |key, value|
-    key.to_s
+  holiday_hash.keys.sort.map do |key, value|
+    key.to_s.map { |key| key.capitalize!.join }
+    
+    
   
-  puts "
   
   
-  
-  hash[key].each { |val| puts val }
+  #hash[key].each { |val| puts val }
 
 end
 
