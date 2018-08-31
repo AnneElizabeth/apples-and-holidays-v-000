@@ -56,6 +56,16 @@ def all_supplies_in_holidays(holiday_hash)
   
   #format
   #print
+  
+  holiday_hash.keys.map do |key, value|
+    key.to_s
+  
+  puts "
+  
+  
+  
+  hash[key].each { |val| puts val }
+
 end
 
 #def all_holidays_with_bbq(holiday_hash)
